@@ -7,48 +7,44 @@
 <body>
 <table border="1px" width="400" height="200" cellspacing="0">
     <tr>
-        <th>ячейка 1</th>
-        <th>ячейка 2</th>
-        <th>ячейка 3</th>
+        <td rowspan="3">ячейка 1</td>
+        <td>ячейка 2</td>
+        <td rowspan="3">ячейка 3</td>
     </tr>
     <tr>
-        <td align="right">ячейка 4</td>
-        <td>ячейка 5</td>
-        <td>ячейка 6</td>
+        <td>ячейка 4</td>
     </tr>
     <tr>
         <td>ячейка 7</td>
-        <td align="center">ячейка 8</td>
-        <td align="right">ячейка 9</td>
     </tr>
 </table>
 
 
 <table border="1px" cellspacing="0">
     <tr>
-        <th>номер</th>
+        <th rowspan="2">номер</th>
+        <th colspan="2">тег</th>
+    </tr>
+    <tr>
         <th>тег</th>
         <th>значение</th>
     </tr>
     <tr>
         <td align="center">1</td>
         <td align="center">p</td>
-        <td align="center">абзац</td>
+        <td align="center" rowspan="4">абзац</td>
     </tr>
     <tr>
         <td align="center">2</td>
         <td align="center">a</td>
-        <td align="center">ссылка</td>
     </tr>
     <tr>
         <td align="center">3</td>
         <td align="center">b</td>
-        <td align="center">жирный текст</td>
     </tr>
     <tr>
         <td align="center">4</td>
         <td align="center">i</td>
-        <td align="center">курсив</td>
     </tr>
     <tr>
         <td align="center">5</td>
@@ -63,12 +59,11 @@
     <tr>
         <td align="center">7</td>
         <td align="center">td</td>
-        <td align="center">ячейка таблицы</td>
+        <td align="center" rowspan="2">ячейка таблицы</td>
     </tr>
     <tr>
         <td align="center">8</td>
         <td align="center">th</td>
-        <td align="center">заголовок таблицы</td>
     </tr>
 </table>
 
